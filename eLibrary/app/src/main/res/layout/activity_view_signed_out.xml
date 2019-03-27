@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewSignedOut">
+
+    <TextView
+        android:id="@+id/bookCategoryTV"
+        android:layout_width="324dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/bookPagesTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bookNameTV"
+        android:layout_width="324dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/bookCategoryTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/bookPagesTV"
+        android:layout_width="323dp"
+        android:layout_height="230dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/extendSignOutAction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/extendSignOutAction"
+        android:layout_width="159dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginStart="98dp"
+        android:text="extend signout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="175dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/bookNameTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+</android.support.constraint.ConstraintLayout>
